@@ -179,7 +179,7 @@ func handlerGetUsersForChannel(w http.ResponseWriter, r *http.Request) {
 
 func handlerIndex(w http.ResponseWriter, r *http.Request) {
 	content := `<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
-	<head><title>smirc</title></head><body>
+	<head><title>smirc is awesome</title></head><body>
       <iframe marginwidth="0" marginheight="0" width="500" height="500" scrolling="no" frameborder=0 src="` + endPointGetMessagesForChannel + `">
       </iframe>
       <iframe marginwidth="0" marginheight="0" width="500" height="25" scrolling="no" frameborder=0 src="` + endPointGetUsersForChannel + `">
